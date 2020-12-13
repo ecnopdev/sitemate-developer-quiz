@@ -47,8 +47,7 @@ class ConfirmationDialog extends HTMLElement {
     disconnectedCallback() { }
 
     openDialog() {
-        const confirmButton = this.shadowRoot.querySelector("#confirm-button");
-        //this.style.display = "block";
+        alert("show overlay");
     }
 
     confirm() { alert("confirmed"); }
