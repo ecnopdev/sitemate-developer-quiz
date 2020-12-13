@@ -1,0 +1,30 @@
+.glass-overlay {
+    z-index:98;
+    position: fixed;
+    top:0px;
+    bottom:0px;
+    background-color:black;
+    opacity:0.4;
+}
+
+.confirm-button {
+    display:none;
+    background-color:green;
+}
+
+.cancel-button {
+    background-color:red;
+}
+
+.message-box {
+    z-index:99;
+    position:fixed;
+    top:45%;
+    left:45%;
+    background-color:white;
+    border:2px solid black;
+}
+
+.message {
+    font-size:18px;
+}
